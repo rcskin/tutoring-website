@@ -27,15 +27,15 @@
 
 .logo-container {
   background-color: #01081d; /* Set background color to black */
-  /* padding: 20px 0; */
   justify-content: center;
   text-align: center;
-  width: 100vh;
+  width: 100%; /* Set width to 100% */
 }
 
 .logo {
-  max-width: 500px; /* Set maximum width for the logo */
+  max-width: 100%; /* Set maximum width for the logo */
   max-height: 300px; /* Set maximum height for the logo */
+  margin: 0 auto; /* Center horizontally */
 }
 
 .services-content ul {
