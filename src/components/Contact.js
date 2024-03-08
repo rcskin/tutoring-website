@@ -14,12 +14,12 @@ const Contact = () => {
         opportunity to discuss current progress, and what you are hoping to
         achieve.
       </p>
-      <p>
+      <h4>
         Email today! {" "}
         <a href={`mailto:${emailAddress}`} className="email-link">
           {emailAddress}
         </a>
-      </p>
+      </h4>
       <img src={brainSquare} alt="Brain Image" className="brain-image" />
     </div>
     </div>
