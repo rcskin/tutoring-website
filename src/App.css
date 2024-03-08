@@ -30,6 +30,7 @@
   /* padding: 20px 0; */
   justify-content: center;
   text-align: center;
+  width: 100%;
 }
 
 .logo {
@@ -127,5 +128,9 @@
   width: 50px; /* Adjust the width of the arrow */
   height: auto; /* Maintain aspect ratio */
   cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.contact-email {
+  font-size: larger;
 }
 
