@@ -1,38 +1,131 @@
-.App {
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  background-color: #01081d; /* Set background color */
+  padding: 10px; /* Add padding */
+}
+
+.navbar ul {
+  list-style-type: none; /* Remove default list styling */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 20px; /* Add margin between list items */
+}
+
+.navbar ul li a {
+  color: #fff39c; /* Set link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.navbar ul li a:hover {
+  color: #FFCCD1; /* Change link color on hover */
+}
+
+.logo-container {
+  background-color: #01081d; /* Set background color to black */
+  /* padding: 20px 0; */
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  max-width: 500px; /* Set maximum width for the logo */
+  max-height: 300px; /* Set maximum height for the logo */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.services-content ul {
+  list-style-type: none; /* Remove default list style */
+  padding-left: 0; /* Remove indentation */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.services-content ul li::before {
+  content: '\2714'; /* Unicode checkmark character */
+  color: #8c2222; /* Change color of the checkmark */
+  margin-right: 8px; /* Add some spacing between the checkmark and the list item */
 }
 
-.App-link {
-  color: #61dafb;
+.content {
+  text-align: center; /* Center the content horizontally */
+  background-color: #faf6f6; /* Set background color */
+  padding: 20px; /* Add padding */
+  color: #8c2222;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#services {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Center content horizontally */
 }
+
+.brain-image {
+  max-width: 50%; /* Set maximum width of the image to 50% */
+  margin-right: 20px; /* Add margin between the image and the content */
+}
+
+.services-content {
+  flex-grow: 1; /* Grow to take up remaining space */
+  font-size: x-large;
+}
+
+.services-content h3,
+.services-content ul {
+  text-align: left; /* Align text to the left */
+}
+
+.footer {
+  background-color: #01081d;
+  color: #fff39c;
+  text-align: center;
+  padding: 10px;
+  font-size: x-small;
+}
+
+.email-link {
+  font-weight: bold;
+  color: #8c2222; /* Set custom color */
+  text-decoration: none; /* Remove default underline */
+}
+
+.email-link:hover {
+  color: #FF9292; /* Change color on hover */
+}
+
+.about-me, .contact-info {
+  padding-left: 60px; /* Adjust as needed */
+  padding-right: 60px; /* Adjust as needed */
+  text-align: center;
+}
+.profile-image {
+  border-radius: 50%; /* Make the image circular */
+  border: 2px solid #8c2222; /* Add a border with the same color as the font */
+  height: 150px;
+  width: 150px;
+
+}
+
+.pupils-need ul {
+  list-style-type: none; /* Remove default list style */
+  padding-left: 0; /* Remove indentation */
+}
+
+.pupils-need ul li::before {
+  content: '\2714'; /* Unicode checkmark character */
+  color: #8c2222; /* Change color of the checkmark */
+  margin-right: 8px; /* Add some spacing between the checkmark and the list item */
+}
+
+.scroll-down {
+  text-align: center;
+  margin-top: 100px; /* Adjust the distance from the content */
+}
+
+.scroll-down-arrow {
+  width: 50px; /* Adjust the width of the arrow */
+  height: auto; /* Maintain aspect ratio */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
