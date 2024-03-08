@@ -17,7 +17,7 @@ const About = () => {
         <p>
           She has worked for a decade as a Science teacher in London in KS3/GCSE
           Sciences and A-level Psychology. She now tutors online and in-person
-          for a range of abilities and exam boards.
+          for a range of abilities and exam boards. She is DBS checked.
         </p>
         <p>She is now residing in Frinton-On-Sea and happy to help!</p>
       </div>
